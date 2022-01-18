@@ -62,9 +62,6 @@ const CardList = ({ ...props }: any) => {
                     <Box sx={{ my: 3, mx: 2 }}>
                       <Grid container alignItems="center">
                         <Grid item xs sx={{ display: "flex" }}>
-                          <Avatar sx={{ bgcolor: deepOrange[500] }}>
-                            {client.name.substring(0, 1)}
-                          </Avatar>
                           <Typography
                             gutterBottom
                             variant="h6"
